@@ -2,7 +2,9 @@
 
 Everything known about the TEW-829DRU before I half bricked it attempting to add OpenWRT support for this device.
 
-DISCLAIMER: This Device Tree Source (DTS) file was extracted from a router running firmware based on OpenWrt 15.05 (Chaos Calmer), which is licensed under the GNU General Public License version 2 (GPLv2).  As a derivative work of GPL-licensed software, the DTS file itself is covered by the GPLv2, granting the right to share and modify this source code; consequently, the hardware configuration described herein cannot be claimed as exclusive intellectual property by the manufacturer to restrict its distribution. This post contains only the DTS source code to facilitate community assistance in unbricking the device; no proprietary binary blobs, compiled firmware, or executable images are included to ensure full compliance with intellectual property concerns and to avoid any potential license violations associated with binary redistribution.
+DISCLAIMER: This Device Tree Source (DTS) file was extracted from a router running firmware based on OpenWrt 15.05 (Chaos Calmer), which is licensed under the GNU General Public License version 2 (GPLv2).  As a derivative work of GPL-licensed software, the DTS file itself is covered by the GPLv2, granting the right to share and modify this source code; consequently, the hardware configuration described herein cannot be claimed as exclusive intellectual property by the manufacturer to restrict its distribution. 
+
+This post contains only the DTS source code to facilitate community assistance in unbricking the device; no proprietary binary blobs, compiled firmware, or executable images are included to ensure full compliance with intellectual property concerns and to avoid any potential license violations associated with binary redistribution.
 
 
 ```						####################
