@@ -2,6 +2,7 @@
 
 Everything known about the TEW-829DRU before I half bricked it attempting to add OpenWRT support for this device.
 
+
 ```						####################
 						## ToH Spec Sheet ##
 						####################
