@@ -519,4 +519,5 @@ eth1 MAC Address from ART: 3c:8c:f8:f3:96:b4
 eth2 MAC Address from ART: 3c:8c:f8:f3:96:b3
 Using machid 0x8010006 from environment
 
-Starting kernel ...```
+Starting kernel ...
+```
