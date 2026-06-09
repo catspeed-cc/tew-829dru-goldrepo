@@ -11,7 +11,8 @@ TRENDnet provides their GPL source code here: https://www.trendnet.com/support/g
 ### For more information about OpenWRT [visit their website](https://openwrt.org/)
 
 
-```						####################
+```
+						####################
 						## ToH Spec Sheet ##
 						####################
 
@@ -79,9 +80,9 @@ Wireguard performance:				?
 FCC ID:								XU8TEW829DRU
 Board Manufacturer:					U-MEDIA
 
-DevKit:								Qualcomm IPQ40xx/AP-DK01.1-C1 (?)
+DevKit:								Qualcomm IPQ40xx/AP-DK04.1-C1		(corrected)
 
-Closest Sibling:					qcom-ipq4019-ap.dk01.1-c1.dts (?)
+Closest Sibling:					qcom-ipq4019-ap.dk04.1-c1.dts		(corrected)
 
 
 							###########
