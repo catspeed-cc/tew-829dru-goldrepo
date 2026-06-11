@@ -82,7 +82,9 @@ Board Manufacturer:					U-MEDIA
 
 DevKit:								Qualcomm IPQ40xx/AP-DK04.1-C1		(corrected)
 
-Closest Sibling:					qcom-ipq4019-ap.dk04.1-c1.dts		(corrected)
+DTS Closest Sibling:				qcom-ipq4019-ap.dk04.1-c1.dts		(corrected)
+
+DTSI File:							qcom-ipq4019-ap.dk04.1.dtsi
 
 
 							###########
@@ -100,6 +102,22 @@ Closest Sibling:					qcom-ipq4019-ap.dk04.1-c1.dts		(corrected)
 - This device has a dual rootfs setup
 
 - Ideally we would preserve the redundant bootloader/rootfs functionality
+
+
+
+
+							#################
+							## KNOWN GPIOS ##
+							#################
+
+Note: GPIO's on this device are offset by +512 - logical GPIO1 is actually GPIO513
+
+Note: Working on obtaining LED & switch/phy reset GPIO's
+Note: TRENDnet does not provide GPIO mappings - failing to comply w/ GPL & provide proper CCS
+
+GPIO					FUNCTION
+
+48						usb-power-enable -> drive HIGH to enable USB power (finally found it via probing!)
 
 
 
@@ -355,6 +373,88 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 8272390       0x7E3A06        xz compressed data
 
 root@AIKS0:~/work/flash-dump#
+
+# FROM GPL SOURCE:
+
+root@AIKS0:~/work/GPL_SOURCE/GPL_TEW-829DRU_v1/IPQ4019.ILQ.1.2# cat common/build/ipq/nand-flash.conf
+[mibib]
+partition = 0:MIBIB
+filename = nand-system-partition-ipq40xx.bin
+
+[sbl1]
+partition = 0:SBL1
+filename = sbl1_nand.mbn
+
+[bootconfig]
+partition = 0:BOOTCONFIG
+filename = nand_bootconfig.bin
+
+[bootconfig1]
+partition = 0:BOOTCONFIG1
+filename = nand_bootconfig1.bin
+
+[ddr-AP-DK01.1-C1]
+partition = 0:CDT
+filename = cdt-AP.DK01.1-C1.bin
+if_machid = 0x8010000
+
+[ddr-AP-DK01.1-C2]
+partition = 0:CDT
+filename = cdt-AP.DK01.1-C2.bin
+if_machid = 0x8010100
+
+[ddr-AP-DK04.1-C1]
+partition = 0:CDT
+filename = cdt-AP.DK04.1-C1.bin
+if_machid = 0x8010001
+
+[ddr-AP-DK04.1-C4]
+partition = 0:CDT
+filename = cdt-AP.DK04.1-C4.bin
+if_machid = 0x8010301
+
+[ddr-AP-DK04.1-C2]
+partition = 0:CDT
+filename = cdt-AP.DK04.1-C2.bin
+if_machid = 0x8010101
+
+[ddr-AP-DK04.1-C3]
+partition = 0:CDT
+filename = cdt-AP.DK04.1-C3.bin
+if_machid = 0x8010201
+
+[ddr-AP-DK06.1-C1]
+partition = 0:CDT
+filename = cdt-AP.DK06.1-C1.bin
+if_machid = 0x8010005
+
+[ddr-AP-DK07.1-C1]
+partition = 0:CDT
+filename = cdt-AP.DK07.1-C1.bin
+if_machid = 0x8010006
+
+[ddr-DB-DK01.1-C1]
+partition = 0:CDT
+filename = cdt-DB.DK01.1-C1.bin
+if_machid = 0x1010002
+
+[ddr-DB.DK02.1-C1]
+partition = 0:CDT
+filename = cdt-DB.DK02.1-C1.bin
+if_machid = 0x1010003
+
+[tz]
+partition = 0:QSEE
+filename = tz.mbn
+
+[u-boot]
+partition = 0:APPSBL
+filename = openwrt-ipq40xx-u-boot-stripped.elf
+
+[ubi]
+partition = rootfs
+filename = openwrt-ipq806x-ipq40xx-ubi-root.img
+root@AIKS0:~/work/GPL_SOURCE/GPL_TEW-829DRU_v1/IPQ4019.ILQ.1.2#
 
 
 
