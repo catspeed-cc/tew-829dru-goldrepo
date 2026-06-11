@@ -17,6 +17,11 @@ This post contains only the DTS source code to facilitate community assistance i
 
 
 ```
+					############################
+					##    GOLD SHEET BELOW    ##
+					############################
+
+
 						####################
 						## ToH Spec Sheet ##
 						####################
@@ -78,9 +83,9 @@ Wireguard performance:				?
 
 
 
-						#######################
-						## GOLDEN DATA BELOW ##
-						#######################
+					###############################
+					## Additional Specifications ##
+					###############################
 
 FCC ID:								XU8TEW829DRU
 Board Manufacturer:					U-MEDIA
