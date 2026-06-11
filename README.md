@@ -11,7 +11,7 @@ This post contains only the DTS source code to facilitate community assistance i
 - TRENDnet support system is here: https://www.trendnet.com/support/
 - TRENDnet contact is here: https://www.trendnet.com/company/contact-us.asp
 
-### You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](https://github.com/catspeed-cc/openwrt) and [this support ticket](https://github.com/catspeed-cc/openwrt/issues/1)
+### You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](https://github.com/catspeed-cc/openwrt), the DTS file and [this support ticket](https://github.com/catspeed-cc/openwrt/issues/1)
 
 ### For more information about OpenWRT [visit their website](https://openwrt.org/)
 
@@ -111,17 +111,34 @@ DTSI File:							qcom-ipq4019-ap.dk04.1.dtsi
 
 
 
+							################
+							## KNOWN UART ##
+							################
+							
+UART HEADER:	is a 4 pin header in the back of the router behind the metal heatsink
+							
+PIN 1:			Is marked by silkscreened hollow triangle
+Pin 1: 			If facing router, with ports & lights in front of you, pin 1 is on the left.
+							
+Pin							FUNCTION
+							
+1							VCC (3.3v constant)
+2							GND (continuity to DC negative)
+3							TX (3.3v high, fluctuating during transmission, dead when unpowered)
+4							RX (3.3v high, fluctuating during transmission, dead when unpowered)
+							
+							
 							#################
 							## KNOWN GPIOS ##
 							#################
-
+							
 Note: GPIO's on this device are offset by +512 - logical GPIO1 is actually GPIO513
-
+							
 Note: Working on obtaining LED & switch/phy reset GPIO's
 Note: TRENDnet does not provide GPIO mappings - failing to comply w/ GPL & provide proper CCS
-
+							
 GPIO					FUNCTION
-
+							
 48						usb-power-enable -> drive HIGH to enable USB power (finally found it via probing!)
 
 
