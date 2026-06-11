@@ -8,6 +8,8 @@ This post contains only the DTS source code to facilitate community assistance i
 
 TRENDnet provides their GPL source code here: https://www.trendnet.com/support/gpl-source-codes.asp
 
+### You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](https://github.com/catspeed-cc/openwrt) and [this support ticket](https://github.com/catspeed-cc/openwrt/issues/1)
+
 ### For more information about OpenWRT [visit their website](https://openwrt.org/)
 
 
