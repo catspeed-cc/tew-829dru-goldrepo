@@ -6,9 +6,10 @@ Everything known about the TEW-829DRU before I half bricked it attempting to add
 
 This post contains only the DTS source code to facilitate community assistance in unbricking the device; no proprietary binary blobs, compiled firmware, or executable images are included to ensure full compliance with intellectual property concerns and to avoid any potential license violations associated with binary redistribution.
 
-TRENDnet main website can be accessed here: https://www.trendnet.com/home
-TRENDnet "provides their GPL source code" here: https://www.trendnet.com/support/gpl-source-codes.asp
-TRENDnet support system is here: 
+- TRENDnet main website can be accessed here: https://www.trendnet.com/home
+- TRENDnet "provides their GPL source code" here: https://www.trendnet.com/support/gpl-source-codes.asp
+- TRENDnet support system is here: https://www.trendnet.com/support/
+- TRENDnet contact is here: https://www.trendnet.com/company/contact-us.asp
 
 ### You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](https://github.com/catspeed-cc/openwrt) and [this support ticket](https://github.com/catspeed-cc/openwrt/issues/1)
 
