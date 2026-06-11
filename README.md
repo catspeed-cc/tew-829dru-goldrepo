@@ -15,7 +15,7 @@ This post contains only the DTS source code to facilitate community assistance i
 
 ### For more information about OpenWRT [visit their website](https://openwrt.org/)
 
-
+## ORIGINAL SOURCE - UP TO DATE GOLD SHEET:
 ```
 					############################
 					##    GOLD SHEET BELOW    ##
