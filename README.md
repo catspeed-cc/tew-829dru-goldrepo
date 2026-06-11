@@ -96,15 +96,22 @@ DTSI File:							qcom-ipq4019-ap.dk04.1.dtsi
 							## NOTES ##
 							###########
 
+- This is a quad core, 717 Mhz, 256MB RAM IPQ4019 devuce,
+- This device is based off the Qualcomm ap.dk04.1-c1 SDK development board
+- This is a Dual Switch Architecture device (QCA8337/QCA8075)
+
 - This device has a redundant setup with two flash chips:
 	- Macronix MX25L6433F SPI NOR - for the redundant/dual bootloader setup
 	- Micron MT29F1G08ABADA NAND) - for the redundant/dual root filesystem
 
-- This device firmware is based off OpenWRT 15.05
+- This device has tri-band wireless (QCA9984)
+
+- This device firmware is based off OpenWRT 15.05 Chaos Calmer (GPLv2)
 
 - This device uses a redundant bootloader and rootfs setup
 - This device has a dual bootloader setup
-- This device has a dual rootfs setup
+- This device has a dual kernel/rootfs setup
+- This device has a rootfs_data overlay
 
 - Ideally we would preserve the redundant bootloader/rootfs functionality
 
