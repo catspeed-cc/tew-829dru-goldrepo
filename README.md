@@ -21,10 +21,7 @@ I am doing so for a few reasons:
 
 **MIRROR URL:** https://gpl-mirror.catspeed.cc/mirror/trendnet/
 
-**NOTE:** The archiver will run once weekly on Sunday at 0000 - it only downloads corrupted or missing files (based on SHA1 hashes)
-          As the script is rate limiting itself to prevent damage to their infrastructure, it may take over night to complete
-		  Should TRENDnet have issue with this and outright block my download attempts, that would be a GPL violation
-		  Throttling I will accept to a degree, I understand the circumstances, hence why the script already rate limits itself
+**NOTE:** The archiver will run once weekly on Sunday at 0000 - it only downloads corrupted or missing files - based on SHA1 hashes. As the script is rate limiting itself to prevent damage to their infrastructure, it may take over night to complete. Should TRENDnet have issue with this and outright block my download attempts, that would be a GPL violation. Throttling I will accept to a degree, I understand the circumstances, hence why the script already rate limits itself.
 
 ### REPOSITORY FILES:
 - [stock-fixed.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/stock-fixed.dts) (current running DTS from router)
