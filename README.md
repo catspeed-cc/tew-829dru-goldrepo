@@ -18,6 +18,7 @@ I am doing so for a few reasons:
 - I intend to port as many EOL devices as possible
 - I want the source before TRENDnet starts deleting old EOL routers that have been EOL for over 3 years
 - I can provide others free valuable archival services of TRENDnet GPL source code
+- I intend to cross reference with CVE disclosures for specific hardware/software versions in future
 
 **MIRROR URL:** https://gpl-mirror.catspeed.cc/mirror/trendnet/
 
