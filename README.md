@@ -11,7 +11,19 @@ This repository contains only the DTS source code to facilitate community assist
 - TRENDnet support system is here: https://www.trendnet.com/support/
 - TRENDnet contact is here: https://www.trendnet.com/company/contact-us.asp
 
-### FILES:
+### UNOFFICIAL PUBLIC TRENDNET GPL SOURCE MIRROR
+I have taken the liberty to set up a trendnet GPL source mirror, as I have the express right to redistribute GPL software under GPLv2 license.
+
+I am doing so for a few reasons:
+- I intend to port as many EOL devices as possible
+- I want the source before TRENDnet starts deleting old EOL routers that have been EOL for over 3 years
+- I can provide others free valuable archival services of TRENDnet GPL source code
+
+**MIRROR URL:** https://gpl-mirror.catspeed.cc/mirror/trendnet/
+
+**NOTE:** The archiver will run once weekly on Sunday at 0000 - it only downloads corrupted or missing files (based on SHA1 hashes)
+
+### REPOSITORY FILES:
 - [stock-fixed.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/stock-fixed.dts) (current running DTS from router)
 - [trendnet_tew-829dru.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/trendnet_tew-829dru.dts) (tew-829dru DTS from router)
 
