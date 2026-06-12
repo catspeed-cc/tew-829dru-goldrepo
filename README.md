@@ -15,6 +15,10 @@ This repository contains only the DTS source code to facilitate community assist
 
 ### For more information about OpenWRT [visit their website](https://openwrt.org/)
 
+### FILES:
+- [stock-fixed.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/stock-fixed.dts) (current running DTS from router)
+- [trendnet_tew-829dru.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/trendnet_tew-829dru.dts) (tew-829dru DTS from router)
+
 ## ORIGINAL SOURCE - UP TO DATE GOLD SHEET:
 ```
 					############################
