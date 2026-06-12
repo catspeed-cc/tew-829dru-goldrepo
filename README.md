@@ -11,11 +11,11 @@ This repository contains only the DTS source code to facilitate community assist
 - TRENDnet support system is here: https://www.trendnet.com/support/
 - TRENDnet contact is here: https://www.trendnet.com/company/contact-us.asp
 
-### You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](https://github.com/catspeed-cc/openwrt), [the DTS file](https://github.com/catspeed-cc/openwrt/blob/tew-829dru-25.12/target/linux/ipq40xx/files-6.12/arch/arm/boot/dts/qcom/qcom-ipq4019-tew-829dru.dts) and [this support ticket](https://github.com/catspeed-cc/openwrt/issues/1)
-
 ### FILES:
 - [stock-fixed.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/stock-fixed.dts) (current running DTS from router)
 - [trendnet_tew-829dru.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/trendnet_tew-829dru.dts) (tew-829dru DTS from router)
+
+### You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](https://github.com/catspeed-cc/openwrt), [the DTS file](https://github.com/catspeed-cc/openwrt/blob/tew-829dru-25.12/target/linux/ipq40xx/files-6.12/arch/arm/boot/dts/qcom/qcom-ipq4019-tew-829dru.dts) and [this support ticket](https://github.com/catspeed-cc/openwrt/issues/1)
 
 ### For more information about OpenWRT [visit their website](https://openwrt.org/)
 
