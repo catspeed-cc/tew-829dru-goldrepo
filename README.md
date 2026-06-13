@@ -71,7 +71,7 @@ SFP+ ports:							-
 Switch:								Qualcomm Atheros QCA8337, Qualcomm Atheros QCA8075
 VLAN:								Yes
 Modem:								-
-Comments network ports:				2 WAN + 8 Port Switch
+Comments network ports:				2 WAN + 8 LAN Port Switch
 WLAN Hardware:						Qualcomm Atheros IPQ4019, Qualcomm Atheros QCA9984
 WLAN 2.4GHz:						b/g/n
 WLAN 5.0GHz:						a/n/ac
