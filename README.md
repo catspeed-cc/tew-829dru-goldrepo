@@ -125,13 +125,12 @@ Inherits:							qcom-ipq4019.dtsi
 	- Macronix MX25L6433F SPI NOR - for the redundant/dual bootloader setup
 	- Micron MT29F1G08ABADA NAND) - for the redundant/dual root filesystem
 
-- This device has tri-band wireless (QCA9984)
+- This device is a tri-band wireless device (QC4019, QCA9984)
 
-- This device firmware is based off OpenWRT 15.05 Chaos Calmer (GPLv2)
+- This device firmware is based off OpenWRT 15.05 Chaos Calmer (licensed under GPLv2)
 
-- This device uses a redundant bootloader and rootfs setup
-- This device has a dual bootloader setup
-- This device has a dual kernel/rootfs setup
+- This device has a redundant/dual bootloader setup
+- This device has a redundant/dual kernel/rootfs setup
 - This device has a rootfs_data overlay
 
 - Ideally we would preserve the redundant bootloader/rootfs functionality
