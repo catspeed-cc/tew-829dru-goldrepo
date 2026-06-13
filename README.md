@@ -151,6 +151,8 @@ Pin							FUNCTION
 2							GND (continuity to DC negative)
 3							TX (3.3v high, fluctuating during transmission, dead when unpowered)
 4							RX (3.3v high, fluctuating during transmission, dead when unpowered)
+
+Note: this has been verified with a multimeter to be the most common pinout layout
 							
 							
 							#################
