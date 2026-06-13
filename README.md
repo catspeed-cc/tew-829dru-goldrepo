@@ -147,10 +147,10 @@ Pin 1: 			If facing router, with ports & lights in front of you, pin 1 is on the
 							
 Pin							FUNCTION
 							
-1							VCC (3.3v constant)
-2							GND (continuity to DC negative)
-3							TX (3.3v high, fluctuating during transmission while device is powered, dead when device is unpowered)
-4							RX (3.3v high, fluctuating during transmission while UART device powered, dead when UART device unpowered)
+1				VCC (3.3v constant)
+2				GND (continuity to DC negative)
+3				TX (3.3v high, fluctuating during transmission while device is powered, dead when device is unpowered)
+4				RX (3.3v high, fluctuating during transmission, most likely dead unless UART device is connected)
 
 Note: this has been verified with a multimeter, it is the most common used pinout layout
 							
