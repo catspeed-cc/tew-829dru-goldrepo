@@ -102,6 +102,7 @@ Wireguard performance:				?
 					###############################
 
 FCC ID:								XU8TEW829DRU
+
 Board Manufacturer:					U-MEDIA
 
 DevKit:								Qualcomm IPQ40xx/AP-DK04.1-C1		(corrected)
@@ -109,6 +110,7 @@ DevKit:								Qualcomm IPQ40xx/AP-DK04.1-C1		(corrected)
 DTS Closest Sibling:				qcom-ipq4019-ap.dk04.1-c1.dts		(corrected)
 
 DTSI File:							qcom-ipq4019-ap.dk04.1.dtsi
+Inherits:							qcom-ipq4019.dtsi
 
 
 							###########
