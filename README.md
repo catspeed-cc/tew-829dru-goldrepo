@@ -34,15 +34,14 @@ I am doing so for a few reasons:
 
 ## ORIGINAL SOURCE - UP TO DATE GOLD SHEET:
 ```
-					############################
-					##    GOLD SHEET BELOW    ##
-					############################
+                       ######################
+					   ##    GOLD SHEET    ##
+					   ######################
 
 
 						####################
 						## ToH Spec Sheet ##
 						####################
-
 
 	AC3000 Tri-Band Wireless Gigabit Dual-WAN VPN SMB Router
 
@@ -98,8 +97,6 @@ OpenVPN performance:				?
 Wireguard performance:				?
 
 
-
-
 					###############################
 					## Additional Specifications ##
 					###############################
@@ -138,15 +135,13 @@ DTSI File:							qcom-ipq4019-ap.dk04.1.dtsi
 - Ideally we would preserve the redundant bootloader/rootfs functionality
 
 
-
-
 							################
 							## KNOWN UART ##
 							################
 							
 UART HEADER:	is a 4 pin header in the back of the router behind the metal heatsink
 							
-PIN 1:			Is marked by silkscreened hollow triangle
+PIN 1:			Is marked by a white silkscreened hollow triangle
 Pin 1: 			If facing router, with ports & lights in front of you, pin 1 is on the left.
 							
 Pin							FUNCTION
@@ -171,8 +166,6 @@ GPIO					FUNCTION
 48						usb-power-enable -> drive HIGH to enable USB power (finally found it via probing!)
 
 
-
-
 							#############
 							## VERSION ##
 							#############
@@ -188,8 +181,6 @@ HUSH_VERSION=0.01
 (IPQ40xx) #
 
 
-
-
 							##############
 							## SF PROBE ##
 							##############
@@ -197,8 +188,6 @@ HUSH_VERSION=0.01
 (IPQ40xx) # sf probe
 SF: Detected MX25L6405D with page size 4 KiB, total 8 MiB
 (IPQ40xx) #
-
-
 
 
 							##############
@@ -227,8 +216,6 @@ Environment size: 287/65532 bytes
 (IPQ40xx) #
 
 
-
-
 							#############
 							## MMCINFO ##
 							#############
@@ -245,8 +232,6 @@ High Capacity: No
 Capacity: 0 Bytes
 Bus Width: 1-bit
 (IPQ40xx) #
-
-
 
 
 							##############
@@ -276,8 +261,6 @@ PHY 0x16: OUI = 0x0000, Model = 0x00, Rev = 0x00,  10baseT, HDX
 PHY 0x17: OUI = 0x0000, Model = 0x00, Rev = 0x00,  10baseT, HDX
 PHY 0x18: OUI = 0x0000, Model = 0x00, Rev = 0x00,  10baseT, HDX
 (IPQ40xx) #
-
-
 
 
 							#############
@@ -323,8 +306,6 @@ _____________________________________________________________
 (IPQ40xx) #
 
 
-
-
 							##############
 							## SMEMINFO ##
 							##############
@@ -349,8 +330,6 @@ No.: Name             Attributes            Start             Size
   9: rootfs_1         0x0100ffff        0x3000000        0x3000000
  10: overlay          0x0100ffff        0x6000000        0x2000000
 (IPQ40xx) #
-
-
 
 
 				#####################################
@@ -508,11 +487,9 @@ filename = openwrt-ipq806x-ipq40xx-ubi-root.img
 root@AIKS0:~/work/GPL_SOURCE/GPL_TEW-829DRU_v1/IPQ4019.ILQ.1.2#
 
 
-
-
 				######################################
 				## Micron MT29F1G08ABADA NAND 128MB ##
-				## BOOTLOADER  PARTITION TABLE DUMP ##
+				##       PARTITION TABLE DUMP       ##
 				######################################
 
 group_pairs Layout blocks found at PEBs: [[0, 1], [384, 385], [801, 921]]
@@ -526,11 +503,9 @@ description Create Volume: b'rootfs_data', ID: 0, Block Cnt: 39
 description Created Image: 864603106, Volume Cnt: 1
 
 
-
-
-							###################
-							## DMESG on BOOT ##
-							###################
+					  ###################
+					  ## DMESG on BOOT ##
+					  ###################
 
 Format: Log Type - Time(microsec) - Message - Optional Info
 Log Type: B - Since Boot(Power On Reset),  D - Delta,  S - Statistic
