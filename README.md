@@ -117,7 +117,7 @@ Inherits:							qcom-ipq4019.dtsi
 							## NOTES ##
 							###########
 
-- This is a quad core, 717 Mhz, 256MB RAM IPQ4019 devuce,
+- This is a quad core, 717 Mhz, 256MB RAM IPQ4019 device
 - This device is based off the Qualcomm ap.dk04.1-c1 SDK development board
 - This is a Dual Switch Architecture device (QCA8337/QCA8075)
 
