@@ -34,7 +34,7 @@ I am doing so for a few reasons:
 
 ## ORIGINAL SOURCE - UP TO DATE GOLD SHEET:
 ```
-                       ######################
+					   ######################
 					   ##    GOLD SHEET    ##
 					   ######################
 
@@ -102,7 +102,6 @@ Wireguard performance:				?
 					###############################
 
 FCC ID:								XU8TEW829DRU
-
 Board Manufacturer:					U-MEDIA
 
 DevKit:								Qualcomm IPQ40xx/AP-DK04.1-C1		(corrected)
@@ -111,6 +110,11 @@ DTS Closest Sibling:				qcom-ipq4019-ap.dk04.1-c1.dts		(corrected)
 
 DTSI File:							qcom-ipq4019-ap.dk04.1.dtsi
 Inherits:							qcom-ipq4019.dtsi
+
+QCA9984 firmware identifier:		bus=pci,bmi-chip-id=0,bmi-board-id=1
+
+QCA4019 firmware identifier:		bus=ahb,bmi-chip-id=0,bmi-board-id=28,variant=TEW-829DRU-2G
+									bus=ahb,bmi-chip-id=0,bmi-board-id=30,variant=TEW-829DRU-5G
 
 
 							###########
@@ -164,9 +168,9 @@ Note: GPIO's on this device are offset by +512 - logical GPIO1 is actually GPIO5
 Note: Working on obtaining LED & switch/phy reset GPIO's
 Note: TRENDnet does not provide GPIO mappings - failing to comply w/ GPL & provide proper CCS
 							
-GPIO					FUNCTION
+LOGICAL GPIO		ACTUAL GPIO			FUNCTION
 							
-48						usb-power-enable -> drive HIGH to enable USB power (finally found it via probing!)
+48					560					usb-power-enable -> drive HIGH to enable USB power (finally found it via probing!)
 
 
 							#############
@@ -407,6 +411,22 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 
 root@AIKS0:~/work/flash-dump#
 
+
+				######################################
+				## Micron MT29F1G08ABADA NAND 128MB ##
+				##       PARTITION TABLE DUMP       ##
+				######################################
+
+group_pairs Layout blocks found at PEBs: [[0, 1], [384, 385], [801, 921]]
+description Create Volume: b'kernel', ID: 0, Block Cnt: 29
+description Create Volume: b'ubi_rootfs', ID: 1, Block Cnt: 162
+description Created Image: 1119963279, Volume Cnt: 2
+description Create Volume: b'kernel', ID: 0, Block Cnt: 30
+description Create Volume: b'ubi_rootfs', ID: 1, Block Cnt: 162
+description Created Image: 490764789, Volume Cnt: 2
+description Create Volume: b'rootfs_data', ID: 0, Block Cnt: 39
+description Created Image: 864603106, Volume Cnt: 1
+
 # FROM GPL SOURCE:
 
 root@AIKS0:~/work/GPL_SOURCE/GPL_TEW-829DRU_v1/IPQ4019.ILQ.1.2# cat common/build/ipq/nand-flash.conf
@@ -488,22 +508,6 @@ filename = openwrt-ipq40xx-u-boot-stripped.elf
 partition = rootfs
 filename = openwrt-ipq806x-ipq40xx-ubi-root.img
 root@AIKS0:~/work/GPL_SOURCE/GPL_TEW-829DRU_v1/IPQ4019.ILQ.1.2#
-
-
-				######################################
-				## Micron MT29F1G08ABADA NAND 128MB ##
-				##       PARTITION TABLE DUMP       ##
-				######################################
-
-group_pairs Layout blocks found at PEBs: [[0, 1], [384, 385], [801, 921]]
-description Create Volume: b'kernel', ID: 0, Block Cnt: 29
-description Create Volume: b'ubi_rootfs', ID: 1, Block Cnt: 162
-description Created Image: 1119963279, Volume Cnt: 2
-description Create Volume: b'kernel', ID: 0, Block Cnt: 30
-description Create Volume: b'ubi_rootfs', ID: 1, Block Cnt: 162
-description Created Image: 490764789, Volume Cnt: 2
-description Create Volume: b'rootfs_data', ID: 0, Block Cnt: 39
-description Created Image: 864603106, Volume Cnt: 1
 
 
 					  ###################
@@ -615,33 +619,33 @@ No size specified -> Using max size (3809280)
 ## Booting kernel from FIT Image at 84000000 ...
    Using 'config@ap.dk07.1-c1' configuration
    Trying 'kernel@1' kernel subimage
-     Description:  ARM OpenWrt Linux-3.14.43
-     Type:         Kernel Image
-     Compression:  gzip compressed
-     Data Start:   0x840000e4
-     Data Size:    3361261 Bytes = 3.2 MiB
-     Architecture: ARM
-     OS:           Linux
-     Load Address: 0x80208000
-     Entry Point:  0x80208000
-     Hash algo:    crc32
-     Hash value:   455baf05
-     Hash algo:    sha1
-     Hash value:   815ee16957306915e27edd00aa3f66ef979b805b
+	 Description:  ARM OpenWrt Linux-3.14.43
+	 Type:         Kernel Image
+	 Compression:  gzip compressed
+	 Data Start:   0x840000e4
+	 Data Size:    3361261 Bytes = 3.2 MiB
+	 Architecture: ARM
+	 OS:           Linux
+	 Load Address: 0x80208000
+	 Entry Point:  0x80208000
+	 Hash algo:    crc32
+	 Hash value:   455baf05
+	 Hash algo:    sha1
+	 Hash value:   815ee16957306915e27edd00aa3f66ef979b805b
    Verifying Hash Integrity ... crc32+ sha1+ OK
 ## Flattened Device Tree from FIT Image at 84000000
    Using 'config@ap.dk07.1-c1' configuration
    Trying 'fdt@ap.dk07.1-c1' FDT blob subimage
-     Description:  ARM OpenWrt qcom-ipq40xx-ap.dkxx device tree blob
-     Type:         Flat Device Tree
-     Compression:  uncompressed
-     Data Start:   0x8436c2f8
-     Data Size:    37922 Bytes = 37 KiB
-     Architecture: ARM
-     Hash algo:    crc32
-     Hash value:   b448c7b5
-     Hash algo:    sha1
-     Hash value:   c2130265a9512115b7a12df0207d3b0f268068f2
+	 Description:  ARM OpenWrt qcom-ipq40xx-ap.dkxx device tree blob
+	 Type:         Flat Device Tree
+	 Compression:  uncompressed
+	 Data Start:   0x8436c2f8
+	 Data Size:    37922 Bytes = 37 KiB
+	 Architecture: ARM
+	 Hash algo:    crc32
+	 Hash value:   b448c7b5
+	 Hash algo:    sha1
+	 Hash value:   c2130265a9512115b7a12df0207d3b0f268068f2
    Verifying Hash Integrity ... crc32+ sha1+ OK
    Booting using the fdt blob at 0x8436c2f8
    Uncompressing Kernel Image ... OK
@@ -652,4 +656,68 @@ eth2 MAC Address from ART: 3c:8c:f8:f3:96:b3
 Using machid 0x8010006 from environment
 
 Starting kernel ...
+
+
+					  #####################
+					  ## CALDATA PACKING ##
+					  #####################
+
+These are the board-2.json files I used (named differently)
+
+This is only required for developers porting devices, the average user will not have to do any of this process.
+This is mainly documentation for myself.
+
+What is important here is the overall structure, and the `names` field. Copy it exactly.
+The filenames are irrelevant. Yours may be different. Just rename or replace them.
+
+qca4019-artcaldata.json
+###
+[
+  {
+	"names": ["bus=ahb,bmi-chip-id=0,bmi-board-id=28,variant=TEW-829DRU-2G"],
+	"data": "cal-ahb-0-fresh.bin"
+  },
+  {
+	"names": ["bus=ahb,bmi-chip-id=0,bmi-board-id=30,variant=TEW-829DRU-5G"],
+	"data": "cal-ahb-1-fresh.bin"
+  }
+]
+###
+
+qca9984-artcaldata.json
+###
+[
+	{
+		"names": [
+			"bus=pci,bmi-chip-id=0,bmi-board-id=1"
+		],
+		"data": "cal-pci-fresh.bin"
+	}
+]
+###
+
+The commands to run to build the bin file:
+###
+# CREATE BOARD-2.BIN (QCA9984)
+qca-swiss-army-knife/tools/scripts/ath10k/ath10k-bdencoder -c qca9984-artcaldata.json -o qca9984-artcaldata.bin
+qca-swiss-army-knife/tools/scripts/ath10k/ath10k-bdencoder -c qca9984-boardData.json -o qca9984-boardData.bin
+
+# EXTRACT BOARD-2.BIN - INSIDE tmp/ (QCA9984)
+qca-swiss-army-knife/tools/scripts/ath10k/ath10k-bdencoder -e ../../qca9984-artcaldata.bin
+qca-swiss-army-knife/tools/scripts/ath10k/ath10k-bdencoder -e ../../qca9984-boardData.bin
+
+# CREATE BOARD-2.BINS (QCA4019)
+qca-swiss-army-knife/tools/scripts/ath10k/ath10k-bdencoder -c qca4019-artcaldata.json -o qca4019-artcaldata.bin
+tools/qca-swiss-army-knife/tools/scripts/ath10k/ath10k-bdencoder -c qca4019-boardData.json -o qca4019-boardData.bin
+
+# EXTRACT BOARD-2.BIN - INSIDE tmp/ (QCA4019)
+qca-swiss-army-knife/tools/scripts/ath10k/ath10k-bdencoder -e ../qca4019-artcaldata.bin
+qca-swiss-army-knife/tools/scripts/ath10k/ath10k-bdencoder -e ../qca4019-boardData.bin
+###
+
+You can make a tmp/ directory, enter it, and run the extraction command in order to extract it back into a board-2.json and the original bin file(s)
+
+Should the JSON look correct (has both entries if there are two) and there are all bin files present (with different names is ok) then you completed a "round trip".
+
+The files are ready for insertion into your dev environment and built into the image.
 ```
