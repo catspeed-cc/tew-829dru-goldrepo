@@ -126,18 +126,18 @@ QCA4019 firmware identifier:		bus=ahb,bmi-chip-id=0,bmi-board-id=28,variant=TEW-
 - This is a Dual Switch Architecture device (QCA8337/QCA8075)
 
 - This device has a redundant setup with two flash chips:
-	- Macronix MX25L6433F SPI NOR - for the redundant/dual bootloader setup
+	- Macronix MX25L6433F SPI NOR - for the single bootloader setup
 	- Micron MT29F1G08ABADA NAND) - for the redundant/dual root filesystem
 
 - This device is a tri-band wireless device (QC4019, QCA9984)
 
 - This device firmware is based off OpenWRT 15.05 Chaos Calmer (licensed under GPLv2)
 
-- This device has a redundant/dual bootloader setup
+- This device has a single bootloader setup
 - This device has a redundant/dual kernel/rootfs setup
 - This device has a rootfs_data overlay
 
-- Ideally we would preserve the redundant bootloader/rootfs functionality
+- Ideally we would preserve the redundant rootfs functionality
 
 
 							################
