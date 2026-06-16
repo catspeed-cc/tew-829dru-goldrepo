@@ -56,7 +56,7 @@ Target:								ipq40xx
 Subtarget:							generic
 Package architecture:				arm_cortex-a7_neon-vfpv4
 Bootloader:							U-Boot
-CPU:								Qualcomm Atheros IPQ4019
+CPU:								Qualcomm Atheros IPQ4019 SoC
 CPU Cores:							4
 CPU MHz:							717
 Flash MB:							8, 128 (Macronix MX25L6433F SPI NOR / Micron MT29F1G08ABADA NAND)
@@ -68,11 +68,11 @@ Ethernet 5Gbit ports:				-
 Ethernet 10Gbit ports:				-
 SFP ports:							-
 SFP+ ports:							-
-Switch:								Qualcomm Atheros QCA8337, Qualcomm Atheros QCA8075
+Switch:								Qualcomm Atheros QCA8075, Qualcomm Atheros QCA8337
 VLAN:								Yes
 Modem:								-
 Comments network ports:				2 WAN + 8 LAN Port Switch
-WLAN Hardware:						Qualcomm Atheros IPQ4019, Qualcomm Atheros QCA9984
+WLAN Hardware:						Qualcomm Atheros QCA4019, Qualcomm Atheros QCA9984
 WLAN 2.4GHz:						b/g/n
 WLAN 5.0GHz:						a/n/ac
 WLAN driver:						ath10k
@@ -123,7 +123,7 @@ QCA4019 firmware identifier:		bus=ahb,bmi-chip-id=0,bmi-board-id=28,variant=TEW-
 
 - This is a quad core, 717 Mhz, 256MB RAM IPQ4019 device
 - This device is based off the Qualcomm ap.dk04.1-c1 SDK development board
-- This is a Dual Switch Architecture device (QCA8337/QCA8075)
+- This is a Dual Switch / Dual MAC Architecture device (QCA8337/QCA8075)
 
 - This device has a redundant setup with two flash chips:
 	- Macronix MX25L6433F SPI NOR - for the single bootloader setup
@@ -169,7 +169,9 @@ Note: Working on obtaining LED & switch/phy reset GPIO's
 Note: TRENDnet does not provide GPIO mappings - failing to comply w/ GPL & provide proper CCS
 							
 LOGICAL GPIO		ACTUAL GPIO			FUNCTION
-							
+
+6					518					mdio0 (determined following hardware lineage)
+7					519					mdc (determined following hardware lineage)
 48					560					usb-power-enable -> drive HIGH to enable USB power (finally found it via probing!)
 
 
@@ -719,5 +721,5 @@ You can make a tmp/ directory, enter it, and run the extraction command in order
 
 Should the JSON look correct (has both entries if there are two) and there are all bin files present (with different names is ok) then you completed a "round trip".
 
-The files are ready for insertion into your dev environment and built into the image.
+The files are ready for insertion into your dev environment and to be built into the image.
 ```
