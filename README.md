@@ -25,7 +25,8 @@ I am doing so for a few reasons:
 **NOTE:** The archiver will run once weekly on Sunday at 0000 - it only downloads corrupted or missing files - based on SHA1 hashes. As the script is rate limiting itself to prevent damage to their infrastructure, it may take over night to complete. Should TRENDnet have issue with this and outright block my download attempts, that would be a GPL violation. Rate limits I will accept to a degree, I understand the circumstances, hence why the script already rate limits itself.
 
 ### REPOSITORY FILES:
-- [stock-fixed.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/stock-fixed.dts) (current running DTS from router)
+- [spi-extracted.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/spi-extracted.dts) (current running DTS from router SPI NOR - canonical single source of truth)
+- [stock-fixed.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/stock-fixed.dts)  (tew-829dru DTS from router - copy?)
 - [trendnet_tew-829dru.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/trendnet_tew-829dru.dts) (tew-829dru DTS from router)
 
 ### You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](https://github.com/catspeed-cc/openwrt), [the DTS file](https://github.com/catspeed-cc/openwrt/blob/tew-829dru-25.12/target/linux/ipq40xx/files-6.12/arch/arm/boot/dts/qcom/qcom-ipq4019-tew-829dru.dts) and [this support ticket](https://github.com/catspeed-cc/openwrt/issues/1)
