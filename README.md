@@ -11,8 +11,8 @@ This repository contains only the DTS source code to facilitate community assist
 - TRENDnet support system is here: https://www.trendnet.com/support/
 - TRENDnet contact is here: https://www.trendnet.com/company/contact-us.asp
 
-### UNOFFICIAL PUBLIC TRENDNET GPL SOURCE MIRROR
-I have taken the liberty to set up a TRENDnet GPL source mirror, as I have the express right to redistribute GPL software under GPLv2 license.
+### UNOFFICIAL PUBLIC GPL SOURCE MIRROR
+I have taken the liberty to set up a GPL source mirror, as I have the express right to redistribute GPL software under GPLv2 license. This mirror will contain various manufacturers' GPLv2 source for devices if provided via website such as - TRENDnet, TP-Link (soon)
 
 I am doing so for a few reasons:
 - I intend to port as many EOL devices as possible
