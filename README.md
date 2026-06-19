@@ -1,8 +1,8 @@
-# tew-829dru
+# TRENDnet tew-829dru goldsheet
 
 Everything known about the TEW-829DRU before I half bricked it attempting to add OpenWRT support for this device.
 
-### DISCLAIMER: This Device Tree Source (DTS) file was extracted from a router running firmware based on OpenWrt 15.05 (Chaos Calmer), which is licensed under the GNU General Public License version 2 (GPLv2).  As a derivative work of GPL-licensed software, the DTS file itself is covered by the GPLv2, granting the right to share and modify this source code; consequently, the hardware configuration described herein cannot be claimed as exclusive intellectual property by the manufacturer to restrict its distribution. 
+## DISCLAIMER: This Device Tree Source (DTS) file was extracted from a router running firmware based on OpenWrt 15.05 (Chaos Calmer), which is licensed under the GNU General Public License version 2 (GPLv2).  As a derivative work of GPL-licensed software, the DTS file itself is covered by the GPLv2, granting the right to share and modify this source code; consequently, the hardware configuration described herein cannot be claimed as exclusive intellectual property by the manufacturer to restrict its distribution. 
 
 This repository contains only the DTS source code to facilitate community assistance in unbricking the device; no proprietary binary blobs, compiled firmware, or executable images are included to ensure full compliance with intellectual property concerns and to avoid any potential license violations associated with binary redistribution.
 
@@ -11,7 +11,17 @@ This repository contains only the DTS source code to facilitate community assist
 - TRENDnet support system is here: https://www.trendnet.com/support/
 - TRENDnet contact is here: https://www.trendnet.com/company/contact-us.asp
 
-### UNOFFICIAL PUBLIC GPL SOURCE MIRROR
+## REPOSITORY FILES:
+- [trendnet-tew-829dru-goldsheet.txt](https://github.com/catspeed-cc/tew-829dru/blob/master/trendnet-tew-829dru-goldsheet.txt) (current goldsheet)
+- [spi-extracted.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/spi-extracted.dts) (current running DTS from router SPI NOR - canonical single source of truth)
+- [stock-fixed.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/stock-fixed.dts)  (tew-829dru DTS from firmware image extraction - copy?)
+- [trendnet_tew-829dru.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/trendnet_tew-829dru.dts) (tew-829dru DTS from firmware image extraction)
+
+### You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](https://github.com/catspeed-cc/openwrt), [the DTS file](https://github.com/catspeed-cc/openwrt/blob/tew-829dru-25.12/target/linux/ipq40xx/files-6.12/arch/arm/boot/dts/qcom/qcom-ipq4019-tew-829dru.dts) and [this support ticket](https://github.com/catspeed-cc/openwrt/issues/1)
+
+-----
+
+## CATSPEED.CC PUBLIC GPL CCS MIRROR:
 I have taken the liberty to set up a GPL source mirror, as I have the express right to redistribute GPL software under GPLv2 license. This mirror will contain various manufacturers' GPLv2 source for devices if provided via website such as - TRENDnet, TP-Link (soon)
 
 I am doing so for a few reasons:
@@ -27,19 +37,11 @@ I am doing so for a few reasons:
 
 **NOTE:** The archiver will run once weekly on Sunday at 0000 - it only downloads corrupted or missing files - based on SHA1 hashes. As the script is rate limiting itself to prevent damage to their infrastructure, it may take over night to complete. Should TRENDnet have issue with this and outright block my download attempts, that would be a GPL violation in my opinion. Rate limits I will accept to a degree, I understand the circumstances, hence why the script already rate limits itself.
 
-### REPOSITORY FILES:
-- [trendnet-tew-829dru-goldsheet.txt](https://github.com/catspeed-cc/tew-829dru/blob/master/trendnet-tew-829dru-goldsheet.txt) (current goldsheet)
-- [spi-extracted.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/spi-extracted.dts) (current running DTS from router SPI NOR - canonical single source of truth)
-- [stock-fixed.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/stock-fixed.dts)  (tew-829dru DTS from firmware image extraction - copy?)
-- [trendnet_tew-829dru.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/trendnet_tew-829dru.dts) (tew-829dru DTS from firmware image extraction)
-
-### You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](https://github.com/catspeed-cc/openwrt), [the DTS file](https://github.com/catspeed-cc/openwrt/blob/tew-829dru-25.12/target/linux/ipq40xx/files-6.12/arch/arm/boot/dts/qcom/qcom-ipq4019-tew-829dru.dts) and [this support ticket](https://github.com/catspeed-cc/openwrt/issues/1)
-
 -----
 
-### For more information about catspeed.cc visit [https://catspeed.cc/](https://catspeed.cc/)
-### For more information about OpenWRT visit [https://openwrt.org/](https://openwrt.org/)
-### For more information about Software Freedom Conservancy visit [https://sfconservancy.org/](https://sfconservancy.org/)
+- For more information about catspeed.cc visit [https://catspeed.cc/](https://catspeed.cc/)
+- For more information about OpenWRT visit [https://openwrt.org/](https://openwrt.org/)
+- For more information about Software Freedom Conservancy visit [https://sfconservancy.org/](https://sfconservancy.org/)
 
 -----
 
