@@ -4,10 +4,10 @@ Everything known about the TEW-829DRU before I half bricked it attempting to add
 
 ## MANUFACTURER INFORMATION:
 - TRENDnet main website can be accessed here: https://www.trendnet.com/home
+- TRENDnet TEW-829DRU device page is here: https://www.trendnet.com/support/support-detail.asp?prod=100_TEW-829DRU
 - TRENDnet "provides their GPL source code" here: https://www.trendnet.com/support/gpl-source-codes.asp
 - TRENDnet support system is here: https://www.trendnet.com/support/
 - TRENDnet contact is here: https://www.trendnet.com/company/contact-us.asp
-- TRENDnet TEW-829DRU https://www.trendnet.com/support/support-detail.asp?prod=100_TEW-829DRU
 - FCC ID: XU8TEW829DRU [https://fccid.io/XU8TEW829DRU](https://fccid.io/XU8TEW829DRU)
 
 ## LEGAL DISCLAIMER:
