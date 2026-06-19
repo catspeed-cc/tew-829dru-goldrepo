@@ -25,7 +25,7 @@ Any additions or modifications made by myself will also be covered by the same G
 - [stock-fixed.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/stock-fixed.dts)  (tew-829dru DTS from firmware image extraction - copy?)
 - [trendnet_tew-829dru.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/trendnet_tew-829dru.dts) (tew-829dru DTS from firmware image extraction)
 
-## Follow my work on TEW-829DRU:
+## FOLLOW MY WORK ON TEW-829DRU:
 You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](https://github.com/catspeed-cc/openwrt), [the DTS file](https://github.com/catspeed-cc/openwrt/blob/tew-829dru-25.12/target/linux/ipq40xx/files-6.12/arch/arm/boot/dts/qcom/qcom-ipq4019-tew-829dru.dts), [this support ticket](https://github.com/catspeed-cc/openwrt/issues/1) and [this pull request](https://github.com/catspeed-cc/openwrt/pull/5)
 
 -----
