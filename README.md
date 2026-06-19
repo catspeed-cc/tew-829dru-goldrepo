@@ -11,6 +11,9 @@ This repository contains only the DTS source code to facilitate community assist
 - TRENDnet support system is here: https://www.trendnet.com/support/
 - TRENDnet contact is here: https://www.trendnet.com/company/contact-us.asp
 
+## LICENSE:
+These files were obtained from a device which runs firmware based on OpenWRT 15.05 (Chaos Chalmer) and as such are covered by the GPLv2 license. As a result I must provide a copy of the license for you (see LICENSE.md)
+
 ## REPOSITORY FILES:
 - [trendnet-tew-829dru-goldsheet.txt](https://github.com/catspeed-cc/tew-829dru/blob/master/trendnet-tew-829dru-goldsheet.txt) (current goldsheet)
 - [spi-extracted.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/spi-extracted.dts) (current running DTS from router SPI NOR - canonical single source of truth)
