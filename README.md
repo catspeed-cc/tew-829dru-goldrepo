@@ -20,7 +20,10 @@ I am doing so for a few reasons:
 - I can provide others free valuable archival services of TRENDnet GPL source code
 - I intend to cross reference with CVE disclosures for specific hardware/software versions in future (useable in porting)
 
-**MIRROR URL:** https://gpl-mirror.catspeed.cc/mirror/trendnet/
+**MIRROR URLs:**
+- Main mirror page - https://gpl-mirror.catspeed.cc/
+- Main mirror directory - https://gpl-mirror.catspeed.cc/mirror/
+- TRENDnet GPLv2 CCS mirror - https://gpl-mirror.catspeed.cc/mirror/trendnet/
 
 **NOTE:** The archiver will run once weekly on Sunday at 0000 - it only downloads corrupted or missing files - based on SHA1 hashes. As the script is rate limiting itself to prevent damage to their infrastructure, it may take over night to complete. Should TRENDnet have issue with this and outright block my download attempts, that would be a GPL violation. Rate limits I will accept to a degree, I understand the circumstances, hence why the script already rate limits itself.
 
