@@ -12,7 +12,8 @@ This repository contains only the DTS source code to facilitate community assist
 - TRENDnet contact is here: https://www.trendnet.com/company/contact-us.asp
 
 ## LICENSE:
-These files were obtained from a device which runs firmware based on OpenWRT 15.05 (Chaos Chalmer) and as such are covered by the GPLv2 license. As a result I must provide a copy of the license for you (see LICENSE.md)<br /><br />
+These files were obtained from a device which runs firmware based on OpenWRT 15.05 (Chaos Chalmer) and as such are covered by the GPLv2 license. As a result I must provide a copy of the license for you (see LICENSE.md)<br />
+<br />
 Any additions or modifications made by myself will also be covered by the same GPLv2 license.
 
 ## REPOSITORY FILES:
@@ -21,11 +22,12 @@ Any additions or modifications made by myself will also be covered by the same G
 - [stock-fixed.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/stock-fixed.dts)  (tew-829dru DTS from firmware image extraction - copy?)
 - [trendnet_tew-829dru.dts](https://github.com/catspeed-cc/tew-829dru/blob/master/trendnet_tew-829dru.dts) (tew-829dru DTS from firmware image extraction)
 
-### You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](https://github.com/catspeed-cc/openwrt), [the DTS file](https://github.com/catspeed-cc/openwrt/blob/tew-829dru-25.12/target/linux/ipq40xx/files-6.12/arch/arm/boot/dts/qcom/qcom-ipq4019-tew-829dru.dts) and [this support ticket](https://github.com/catspeed-cc/openwrt/issues/1)
+## Follow my work on TEW-829DRU:
+You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](https://github.com/catspeed-cc/openwrt), [the DTS file](https://github.com/catspeed-cc/openwrt/blob/tew-829dru-25.12/target/linux/ipq40xx/files-6.12/arch/arm/boot/dts/qcom/qcom-ipq4019-tew-829dru.dts), [this support ticket](https://github.com/catspeed-cc/openwrt/issues/1) and [this pull request](https://github.com/catspeed-cc/openwrt/pull/5)
 
 -----
 
-## CATSPEED.CC PUBLIC GPL CCS MIRROR:
+## CATSPEED.CC COMMUNITY GPL CCS MIRROR:
 I have taken the liberty to set up a GPL Complete Corresponding Source mirror, as I have the right to redistribute GPL software under GPLv2 license. This mirror will contain various manufacturers' GPLv2 Complete Corresponding Source for devices if provided via website such as - TRENDnet, TP-Link (soon)
 
 I am doing so for a few reasons:
