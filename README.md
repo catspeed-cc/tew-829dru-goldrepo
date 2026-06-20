@@ -32,7 +32,7 @@ You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](htt
 -----
 
 ## THE CONSUMER'S BEST SOLUTION TO ADDRESS FCC SECURITY CONCERNS:
-I believe OpenWRT/DD-WRT are the solution to address security concerns related to the router bans for security conscious consumers. While it still requires a degree of security mindset from the end-user, OpenWRT 25.12 has made great progress to `security by default` in their design. Given that it replaces unknown proprietary manufacturer firmware with auditable open source code it is my opinion that this is the best way for the end-user to resolve the security concerns addressed by the FCC for existing hardware.
+I believe OpenWRT/DD-WRT are the best solution to address security concerns related to the router bans for security conscious consumers on existing and/or EOL hardware. While it still requires a degree of security mindset from the end-user, OpenWRT 25.12 has made great progress to `security by default` in their design. Given that it replaces unknown proprietary manufacturer firmware with auditable open source code it is my opinion that this is the best way for the end-user to resolve the security concerns addressed by the FCC for existing hardware.
 
 -----
 
