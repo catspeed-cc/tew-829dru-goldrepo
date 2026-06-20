@@ -31,6 +31,10 @@ You may follow my port of TEW-829DRU to OpenWRT by [visiting the repository](htt
 
 -----
 
+## THE SOLUTION TO
+
+-----
+
 ## CATSPEED.CC COMMUNITY GPL CCS MIRROR:
 I have taken the liberty to set up a GPL Complete Corresponding Source mirror, as I have the right to redistribute GPL software under GPLv2 license. This mirror will contain various manufacturers' GPLv2 Complete Corresponding Source for devices if provided via website such as - TRENDnet, TP-Link (soon)
 
