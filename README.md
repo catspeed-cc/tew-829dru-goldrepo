@@ -37,7 +37,7 @@ I believe OpenWRT/DD-WRT are the best solution to address security concerns rela
 -----
 
 ## CATSPEED.CC COMMUNITY GPL CCS MIRROR:
-I have taken the liberty to set up a GPL Complete Corresponding Source mirror, as I have the right to redistribute GPL software under GPLv2 license. This mirror will contain various manufacturers' GPLv2 Complete Corresponding Source for devices if provided via website such as - TRENDnet, TP-Link (soon)
+I have taken the liberty to set up a GPL source mirror, as I have the explicit right to redistribute GPL software under GPLv2 license. This mirror will contain various manufacturers' GPLv2 source for devices if provided via website such as - TRENDnet, TP-Link (soon)
 
 I am doing so for a few reasons:
 - I intend to port as many EOL devices as possible
