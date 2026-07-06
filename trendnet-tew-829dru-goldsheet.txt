@@ -139,7 +139,7 @@ LOGICAL GPIO		ACTUAL GPIO			FUNCTION
 
 48					560					usb-power-enable -> drive HIGH to enable USB power (finally found it via probing!)
 52					564					mdio (determined following hardware lineage)
-53					565					mdc (determined following hardware lineage)
+53					565					SHARED: mdc & nand (determined following hardware lineage)
 
 
 							#############
