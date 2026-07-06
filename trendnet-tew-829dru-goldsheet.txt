@@ -91,8 +91,8 @@ QCA4019 firmware identifier:		bus=ahb,bmi-chip-id=0,bmi-board-id=28,variant=TEW-
 - This is a Dual Switch / Dual MAC Architecture device (QCA8337/QCA8075)
 
 - This device has a redundant setup with two flash chips:
-	- Macronix MX25L6433F SPI NOR - for the single bootloader setup
-	- Micron MT29F1G08ABADA NAND) - for the redundant/dual root filesystem
+	- Macronix MX25L6433F SPI NOR (8-pin) - for the single bootloader setup
+	- Micron MT29F1G08ABADA NAND (TSOP-48 / 48-pin) - for the redundant/dual root filesystem
 
 - This device is a tri-band wireless device (QC4019, QCA9984)
 
