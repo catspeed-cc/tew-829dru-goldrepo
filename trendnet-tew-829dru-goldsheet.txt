@@ -112,7 +112,7 @@ QCA4019 firmware identifier:		bus=ahb,bmi-chip-id=0,bmi-board-id=28,variant=TEW-
 UART HEADER:	is a 4 pin header in the back of the router behind the metal heatsink
 							
 PIN 1:			Is marked by a white silkscreened hollow triangle
-Pin 1: 			If facing router, with ports & lights in front of you, pin 1 is on the left.
+Pin 1:			If facing router, with ports & lights in front of you, pin 1 is on the left.
 							
 Pin							FUNCTION
 							
@@ -122,6 +122,8 @@ Pin							FUNCTION
 4				RX (3.3v high, fluctuating during transmission, most likely dead unless UART device is connected)
 
 Note: this has been verified with a multimeter, it is the most common used pinout layout
+
+Note: The SPI NOR chip (SMD) is right beside UART header.
 							
 							
 							#################
@@ -310,6 +312,8 @@ No.: Name             Attributes            Start             Size
 				## MACRONIX MX25L6433F SPI NOR 8MB ##
 				## BOOTLOADER PARTITION TABLE DUMP ##
 				#####################################
+
+Note: SPI NOR chip is right beside the UART header.
 
 root@AIKS0:~/work/flash-dump# binwalk tew-829dru-flashdump.bin
 
