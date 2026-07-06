@@ -388,7 +388,7 @@ root@AIKS0:~/work/flash-dump#
 				##       PARTITION TABLE DUMP       ##
 				######################################
 
-Note: NAND is on the underside of the board. It is NOT the diagonal one, its the other one.
+Note: NAND - TSOP-48 (48 pin) is on the underside of the board. It is NOT the diagonal one, its the other one.
 
 group_pairs Layout blocks found at PEBs: [[0, 1], [384, 385], [801, 921]]
 description Create Volume: b'kernel', ID: 0, Block Cnt: 29
