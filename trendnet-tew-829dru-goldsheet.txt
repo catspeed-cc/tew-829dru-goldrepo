@@ -137,9 +137,18 @@ Note: TRENDnet does not provide GPIO mappings or compileable CCS.
 							
 LOGICAL GPIO		ACTUAL GPIO			FUNCTION
 
+16					528					DO NOT PROBE, CRASHES SYSTEM, RESERVED
+42					554					DO NOT PROBE, RESETS WAN1, RESERVED
+
 48					560					usb-power-enable -> drive HIGH to enable USB power (finally found it via probing!)
 52					564					mdio (determined following hardware lineage)
 53					565					SHARED: mdc & nand (determined following hardware lineage)
+
+50					562					WPS LED (drive low on, drive high off)
+48					560					2.4g LED (drive low on, drive high off)
+??					???					5g1 LED (drive low on, drive high off)
+45					557					5g2 LED (drive low on, drive high off)
+
 
 
 							#############
