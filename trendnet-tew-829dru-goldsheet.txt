@@ -132,7 +132,7 @@ Note: The SPI NOR chip (SMD 8-pin) is right beside UART header.
 							
 Note: GPIO's on this device are offset by +512 - logical GPIO1 is actually GPIO513
 							
-Note: Working on obtaining LED & switch/phy reset GPIO's
+Note: Working on obtaining LED & reset button GPIO's
 Note: TRENDnet does not provide GPIO mappings - failing to comply w/ GPL & provide proper CCS
 							
 LOGICAL GPIO		ACTUAL GPIO			FUNCTION
