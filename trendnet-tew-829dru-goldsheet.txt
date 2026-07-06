@@ -123,7 +123,7 @@ Pin							FUNCTION
 
 Note: this has been verified with a multimeter, it is the most common used pinout layout
 
-Note: The SPI NOR chip (SMD 4x4) is right beside UART header.
+Note: The SPI NOR chip (SMD 8-pin) is right beside UART header.
 							
 							
 							#################
@@ -313,7 +313,7 @@ No.: Name             Attributes            Start             Size
 				## BOOTLOADER PARTITION TABLE DUMP ##
 				#####################################
 
-Note: SPI NOR chip (SMD 4x4) is right beside the UART header.
+Note: SPI NOR chip (SMD 8-pin) is right beside the UART header.
 
 root@AIKS0:~/work/flash-dump# binwalk tew-829dru-flashdump.bin
 
