@@ -88,7 +88,7 @@ QCA4019 firmware identifier:		bus=ahb,bmi-chip-id=0,bmi-board-id=28,variant=TEW-
 
 - This is a quad core, 717 Mhz, 256MB RAM IPQ4019 device
 - This device is based off the Qualcomm ap.dk04.1-c1 SDK development board
-- This is a Dual Switch / Dual MAC Architecture device (QCA8337/QCA8075)
+- This is a Dual Switch / Dual GMAC Architecture (QCA8337/QCA8075)
 
 - This device has a redundant setup with two flash chips:
 	- Macronix MX25L6433F SPI NOR (8-pin) - for the single bootloader setup
