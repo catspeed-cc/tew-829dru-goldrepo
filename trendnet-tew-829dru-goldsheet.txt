@@ -134,6 +134,7 @@ Note: GPIO's on this device are offset by +512 - logical GPIO1 is actually GPIO5
 							
 Note: Working on obtaining LED & reset button GPIO's
 Note: TRENDnet does not provide GPIO mappings or compileable CCS.
+Note: 5g1 led might be set by QCA8075
 							
 LOGICAL GPIO		ACTUAL GPIO			FUNCTION
 
@@ -145,7 +146,7 @@ LOGICAL GPIO		ACTUAL GPIO			FUNCTION
 53					565					SHARED: mdc & nand (determined following hardware lineage)
 
 50					562					WPS LED (drive low on, drive high off)
-48					560					2.4g LED (drive low on, drive high off)
+49					560					2.4g LED (drive low on, drive high off)
 ??					???					5g1 LED (drive low on, drive high off)
 45					557					5g2 LED (drive low on, drive high off)
 
