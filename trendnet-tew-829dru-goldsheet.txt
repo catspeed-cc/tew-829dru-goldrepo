@@ -138,8 +138,12 @@ Note: 5g1 led might be set by QCA8075
 							
 LOGICAL GPIO		ACTUAL GPIO			FUNCTION
 
-16					528					DO NOT PROBE, CRASHES SYSTEM, RESERVED
-42					554					DO NOT PROBE, RESETS WAN1, RESERVED
+6					518					DO NOT PROBE, RESETS qca8k (qca8k / wan reset / switches)
+7					519					DO NOT PROBE, CRASHES SYSTEM, RESERVED (unknown)
+16					528					DO NOT PROBE, CRASHES SYSTEM, RESERVED (UART / unknown)
+29					541					DO NOT PROBE, CRASHES, RESERVED (unknown)
+41					553					DO NOT PROBE, RESETS qca8k (qca8k / wan reset / switches)
+42					554					DO NOT PROBE, RESETS qca8k, RESERVED (qca8k / wan reset / switches)
 
 48					560					usb-power-enable -> drive HIGH to enable USB power (finally found it via probing!)
 52					564					mdio (determined following hardware lineage)
@@ -147,7 +151,7 @@ LOGICAL GPIO		ACTUAL GPIO			FUNCTION
 
 50					562					WPS LED (drive low on, drive high off)
 49					560					2.4g LED (drive low on, drive high off)
-??					???					5g1 LED (drive low on, drive high off)
+--					---					5g1 LED (drive low on, drive high off) -- SPECIAL! Driver claims this one! No GPIO for it.
 45					557					5g2 LED (drive low on, drive high off)
 
 
