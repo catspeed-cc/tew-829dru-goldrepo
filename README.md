@@ -16,9 +16,9 @@ This Device Tree Source (DTS) file was extracted from a router running firmware 
 This repository contains only the DTS source code to facilitate community assistance in unbricking the device; no proprietary binary blobs, compiled firmware, or executable images are included to ensure full compliance with intellectual property concerns and to avoid any potential license violations associated with binary redistribution.
 
 ## LICENSE:
-These files were obtained from a device which runs firmware based on OpenWRT 15.05 (Chaos Chalmer) and as such are covered by the GPLv2 license. As a result I must provide a copy of the license for you (see LICENSE.md)<br />
+These files were obtained from a device which runs firmware based on OpenWRT 15.05 (Chaos Chalmer) and as such are covered by the GPLv2 license. As a result I must provide a copy of the license for you (see LICENSE)<br />
 <br />
-Any additions or modifications made by myself will also be covered by the same GPLv2 license (see LICENSE.md)
+Any additions or modifications made by myself will also be covered by the same GPLv2 license (see LICENSE)
 
 ## REPOSITORY FILES:
 - [trendnet-tew-829dru-goldsheet.txt](https://github.com/catspeed-cc/tew-829dru/blob/master/trendnet-tew-829dru-goldsheet.txt) (current goldsheet)
